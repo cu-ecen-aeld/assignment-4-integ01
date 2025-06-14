@@ -1,18 +1,12 @@
 
 
-#menu 'project base'
-	#source "../base_external/package/aesd-assignments/Config.in" 
-#	source "$BR2_EXTERNAL_project_base_PATH/package/aesd-assignments/Config.in" 
-#endmenu
-
-
-config BR2_EXTERNAL_PROJECT
+config BR2_MY_PROJECT
 	bool "project_base"
 
 
 
 
-if BR2_EXTERNAL_PROJECT
+if BR2_MY_PROJECT
 	menu "project base"
 		source "$BR2_EXTERNAL_project_base_PATH/package/aesd-assignments/Config.in" 
 	endmenu

@@ -1,4 +1,2 @@
-desc: 'Custom buildroot'
 name: project_base
-
-
+description: Base customization for project
